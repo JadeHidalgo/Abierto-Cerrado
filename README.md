@@ -1,2 +1,3 @@
 # Abierto-Cerrado-SOLID
- Este principio ayuda a desarrollar programas mas flexibles y facilita el mantenimiento del codigo y reduce el riesgo de errores al agregar nuevas funcionalidades
+ El proyecto aplica el Principio Abierto/Cerrado al separar los atributos comunes de los productos de las características particulares de cada tipo. La clase Producto sirve como base, mientras que Fisico y Digital amplían su funcionalidad mediante la herencia.
+En conclusión, el diseño permite extender el sistema incorporando nuevos tipos de productos sin modificar la clase base para agregar sus atributos específicos. Para demostrar el principio de manera más completa, sería conveniente incorporar una función que trabaje con la clase base mediante referencias o polimorfismo.
